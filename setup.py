@@ -10,6 +10,9 @@ def _load_requirements(file_path: str = "requirements.txt") -> list:
 setup(
     name='latent-diffusion',
     version='0.0.1',
+    author='CompVis',
+    author_email='assist.mvl@lrz.uni-muenchen.de',
+    url='https://github.com/CompVis/stable-diffusion',
     description='',
     packages=find_packages(),
     install_requires=_load_requirements(),
