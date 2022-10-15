@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 def _load_requirements(file_path: str = "requirements.txt") -> list:
     with open(file_path) as fp:
         requires = parse_requirements(fp.readlines())
-    return list(requires)
+    return [str(r) for r in requires]
 
 setup(
     name='latent-diffusion',
