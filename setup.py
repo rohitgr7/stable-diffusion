@@ -13,7 +13,9 @@ setup(
     author='CompVis',
     author_email='assist.mvl@lrz.uni-muenchen.de',
     url='https://github.com/CompVis/stable-diffusion',
-    description='',
+    description='Stable Diffusion',
+    long_description='Stable Diffusion is a latent diffusion model conditioned on the (non-pooled) text embeddings',
+    long_description_content_type='text/x-rst',
     packages=find_packages(),
     install_requires=_load_requirements(),
 )
